@@ -2,6 +2,7 @@ import whois
 import requests
 import socket, ssl
 from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 import os
 import re
 import json
@@ -216,9 +217,17 @@ def main():
         "X-Github-Repository": repo.full_name
     })
 
+    #combined_results = {
+    #    "domains": [],
+    #    "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+    #    "ip_address": outgoing_ipv4
+    #}
+    cph = ZoneInfo("Europe/Copenhagen")
+    now_local = datetime.now(cph)
+
     combined_results = {
         "domains": [],
-        "last_updated": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "last_updated": now_local.strftime("%d-%m-%Y %H:%M:%S"),  # human-visible, local time
         "ip_address": outgoing_ipv4
     }
 
