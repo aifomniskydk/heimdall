@@ -130,7 +130,7 @@
               <path x-show="domain.http_ok" d="M12 22C17.523 22 22 17.523 22 12 22 6.477 17.523 2 12 2 6.477 2 2 6.477 2 12 2 17.523 6.477 22 12 22ZM17.457 9.457 11 15.914 6.793 11.707 8.207 10.293 11 13.086 16.043 8.043 17.457 9.457Z"></path>
               <path x-show="!domain.http_ok" d="M12 22C17.523 22 22 17.523 22 12 22 6.477 17.523 2 12 2 6.477 2 2 6.477 2 12 2 17.523 6.477 22 12 22ZM15 9l-6 6M9 9l6 6"></path>
             </svg>
-            <span x-text="domain.http_ok ? 'Operational' : 'Down'"></span>
+            <span x-text="domain.http_ok ? 'I drift' : 'Ude af drift'"></span>
           </span>
         </button>
   
@@ -242,7 +242,7 @@
 </div>
 
 
-<small class="mt-auto text-center p-5">⚡ Subscribe via RSS — <a href="index.xml" target="_blank" class="no-underline">to all updates</a> | <button @click="showHidden = !showHidden" class="">Badge</button> | <a href="status.json" target="_blank">JSON</a></small>
+<small class="mt-auto text-center p-5">⚡ Abonnér via RSS — <a href="index.xml" target="_blank" class="no-underline">på alle driftsopdateringer</a> | <button @click="showHidden = !showHidden" class="">Badge</button> | <a href="status.json" target="_blank">JSON</a></small>
 <!--<a href="https://github.com/stefanpejcic/heimdall/" target="_blank" class="fixed bottom-4 right-4 group"><span class="text-3xl relative">🗿</span><span class="absolute right-full top-1/2 -translate-y-1/2 mr-2 hidden group-hover:block bg-gray-800 text-white text-sm px-2 py-1 rounded-lg shadow-lg whitespace-nowrap">Status page generated with 🗿 Heimdall</span></a>-->
 
 <script>
@@ -367,7 +367,7 @@ function domainMonitor() {
         };
       });
      
-      document.title = `Status Page — (${this.domains.length} domain${this.domains.length !== 1 ? 's' : ''})`;  // update browser tab
+      //document.title = `Status Page — (${this.domains.length} domain${this.domains.length !== 1 ? 's' : ''})`;  // update browser tab
     }
   }
 }
