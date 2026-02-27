@@ -38,7 +38,7 @@
         const res = await fetch('status.json');
         const data = await res.json();
 
-        const allOk = data.domains.every(d => d.http_ok && d.ssl_ok && d.whois_ok);
+        const allOk = data.domains.every(d => d.history_entry?.http_ok && d.history_entry?.ssl_ok && d.history_entry?.whois_ok);
 
         const badge = document.getElementById('status-badge');
         const icon = document.getElementById('status-icon');
