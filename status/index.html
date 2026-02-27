@@ -2,7 +2,7 @@
 <html lang="en" x-data="domainMonitor()" x-init="init()">
 <head>
   <meta charset="UTF-8">
-  <title>Status Page</title>
+  <title>OpenHost.dk - Driftsstatus</title>
   <style>
     [x-cloak] { display: none !important; }
   </style>  
@@ -26,7 +26,7 @@
           </svg>
         </span>
         <div>
-          <h3 class="text-xl font-medium text-gray-900 dark:text-gray-50" x-text="allUp ? 'No issues detected' : 'Issues detected'"></h3>
+          <h3 class="text-xl font-medium text-gray-900 dark:text-gray-50" x-text="allUp ? 'Alle systemer i drift' : 'Nogle systemer ude af drift'"></h3>
           <p class="pt-1 text-sm text-gray-700 dark:text-gray-300">Last updated on <span x-text="lastUpdated"></span></p>
         </div>
       </div>
