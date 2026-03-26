@@ -8532,9 +8532,18 @@
       "http_ok": true,
       "http_response_time_ms": 846.788,
       "resolved_ip": "91.226.144.135"
+    },
+    {
+      "timestamp": "2026-03-26 11:34:14",
+      "whois_ok": true,
+      "ssl_ok": true,
+      "http_status": 200,
+      "http_ok": true,
+      "http_response_time_ms": 810.951,
+      "resolved_ip": "91.226.144.135"
     }
   ],
-  "ip_address": "132.196.80.150",
+  "ip_address": "52.225.73.160",
   "whois_expiry": "2027-02-26",
   "nameservers": null,
   "registrar": null,
