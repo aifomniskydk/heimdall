@@ -3,21 +3,21 @@
     {
       "domain": "openhost.dk",
       "history_entry": {
-        "timestamp": "2026-05-10 15:11:29",
+        "timestamp": "2026-05-10 16:10:35",
         "whois_ok": true,
         "ssl_ok": false,
         "http_status": 200,
         "http_ok": true,
-        "http_response_time_ms": 832.788,
+        "http_response_time_ms": 919.213,
         "resolved_ip": "91.226.144.135"
       },
-      "ip_address": "20.161.45.115",
+      "ip_address": "20.57.214.152",
       "whois_expiry": "2027-02-26",
       "nameservers": null,
       "registrar": null,
       "ssl_expiry": "2026-05-28"
     }
   ],
-  "last_updated": "10-05-2026 17:11:29",
-  "ip_address": "20.161.45.115"
+  "last_updated": "10-05-2026 18:10:35",
+  "ip_address": "20.57.214.152"
 }
