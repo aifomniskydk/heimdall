@@ -27657,9 +27657,18 @@
       "http_ok": true,
       "http_response_time_ms": 854.739,
       "resolved_ip": "91.226.144.135"
+    },
+    {
+      "timestamp": "2026-08-14 21:02:59",
+      "whois_ok": true,
+      "ssl_ok": false,
+      "http_status": 200,
+      "http_ok": true,
+      "http_response_time_ms": 934.6569999999999,
+      "resolved_ip": "91.226.144.135"
     }
   ],
-  "ip_address": "20.168.6.179",
+  "ip_address": "20.171.22.36",
   "whois_expiry": "2027-02-26",
   "nameservers": null,
   "registrar": null,
