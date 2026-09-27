@@ -33930,9 +33930,18 @@
       "http_ok": true,
       "http_response_time_ms": 989.309,
       "resolved_ip": "91.226.144.135"
+    },
+    {
+      "timestamp": "2026-09-27 12:59:53",
+      "whois_ok": true,
+      "ssl_ok": false,
+      "http_status": 200,
+      "http_ok": true,
+      "http_response_time_ms": 927.136,
+      "resolved_ip": "91.226.144.135"
     }
   ],
-  "ip_address": "20.40.214.131",
+  "ip_address": "20.3.231.116",
   "whois_expiry": "2027-02-26",
   "nameservers": null,
   "registrar": null,
